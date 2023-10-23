@@ -15,7 +15,7 @@ namespace MessageLib
         public string recipient;
         public string content;
 
-        public Message() { }
+        public Message() {   }
         public Message(string recipient, string content ) 
         {
             this.recipient = recipient;
